@@ -49,3 +49,8 @@ Pour ce faire, nous avons utilisé des variables d'environnement. En effet, Dock
 
 Nous avons donc simplement inscrit les valeurs des variables d'environnement dans le fichier de configuration par un print de PHP.
 
+### Management UI
+Pour gérer notre environnement Docker, nous avons utilisé portainer.io, un outil de gestion de docker hosts.
+On peut y accéder par localhost:9000 une fois la machine lancée. Cela nous permet ensuite de gérer les images et les containers afin de, par exemple, tuer des machines, voir l'état actuel des containers et autres.  
+
+Nous constatons qu'il aurait été très utile d'avoir cet outil à disposition pour la réalisation de ce laboratoire.
